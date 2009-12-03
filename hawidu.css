@@ -15,12 +15,12 @@ a:hover{color:#f78418;}
 a:active{}
 a:focus{outline:1px dotted;}
 /*Mailto & File Links*/
-a[href^='mailto:']{background:transparent url(http://brad.hawidu.com/file_icon_sprite.gif) no-repeat scroll right 0;display:inline-block;padding:0 18px 0 0;}
-a[href$='.pdf']{background:transparent url(http://brad.hawidu.com/file_icon_sprite.gif) no-repeat scroll right -44px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(http://brad.hawidu.com/file_icon_sprite.gif) no-repeat scroll right -90px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.ppt'],a[href$='.pptx']{background:transparent url(http://brad.hawidu.com/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.doc'],a[href$='.rtf'],a[href$='.txt']{background:transparent url(http://brad.hawidu.com/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(http://brad.hawidu.com/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
+a[href^='mailto:']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right 0;display:inline-block;padding:0 18px 0 0;}
+a[href$='.pdf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -44px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -90px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.doc'],a[href$='.rtf'],a[href$='.txt']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
 @media print{
 	a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
 	}
@@ -29,7 +29,7 @@ a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(http
 ol{margin:.75em 1em;}
 	ol li{list-style:decimal outside;}
 ul{margin:.75em 1em;}
-	ul li{list-style-image:url(http://brad.hawidu.com/bullet.gif);}
+	ul li{list-style-image:url(images/bullet.gif);}
 	
 /*Heading*/
 h1,h1 a:link,h1 a:visited{font-size:2.25em;margin:.75em 0 .25em 0;}
@@ -48,7 +48,7 @@ fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
 		fieldset li{list-style:none;margin:0;padding:.4em .75em;}
 			fieldset li label{display:inline-block;margin:0 1em 0 0;width:9em;}
 	input[type="password"],input[type="text"]{border:1px solid;border-color:#bbb #ccc #ccc #bbb;padding:.1em;}
-	button,.button,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],select{background:#f9f9f9 url(http://brad.hawidu.com/sm_gradient_overlay.png) center left repeat-x;border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;padding:.1em 10px;}
+	button,.button,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],select{background:#f9f9f9 url(images/sm_gradient_overlay.png) center left repeat-x;border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;padding:.1em 10px;}
 		button:hover,.button:hover,input[type="file"] > input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background-color:#f0f0f0;}
 		button,.button,input[type="reset"],input[type="submit"]{margin:0 5px;}
 		input[type="file"]{font-size:.714em;}
