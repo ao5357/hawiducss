@@ -79,7 +79,7 @@ blockquote{background:#f9f9f9;border-left:10px solid #ccc;margin:1.5em 10px;padd
 	blockquote p{display:inline;}
 code,pre{background:#f9f9f9;border:1px solid #ccc;display:block;font-family:Consolas,"Bitstream Vera Sans Mono","Courier New",monospace;font-size:1em;margin:1.5em 10px;padding:.5em 10px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;}
 em{font-style:italic;}
-hr{background-color:#444;border-width:0;color:#444;height:2px;line-height:0;margin:-.5em 10px 1.8571em 10px;page-break-after:always;text-align:center;width:80%;}
+hr{background-color:#444;border-width:0;color:#444;height:2px;line-height:0;margin:1.8571em auto;page-break-after:always;text-align:center;width:90%;}
 	hr:after{content:"\a7\a7";font-size:1.25em;}
 img{-ms-interpolation-mode:bicubic;border:0 none;}
 p{clear:both;margin:1.5em 0;}
