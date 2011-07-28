@@ -1,6 +1,6 @@
-/*--- [Name of Project] - Maintained by:[Maintainer] Email:[Maintainer's Email] - based on Hawidu CSS http://code.google.com/p/hawiducss/ ---*/
+/*---[Name of Project] — Maintained by:[Maintainer] Email:[Maintainer's Email] — based on Hawidu CSS: http://code.google.com/p/hawiducss/ ---*/
 /*--Type Selectors--*/
-/*Body-reset*/
+/*-Body-reset-*/
 html{background:#fff;color:#111;font-size:100.01%;}
 body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.5em;margin:0;padding:0;}
 blockquote,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,label,legend,li,ol,option,p,pre,select,td,textarea,th,ul{font-size:1em;margin:0;padding:0;}
@@ -8,7 +8,7 @@ input{color:#111;font-family:Arial,sans-serif;vertical-align:top;}
 button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,.radius,select{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
 embed,img,object{max-width:100%;}
 
-/*Link*/
+/*-Link-*/
 a:link{color:#004276;}
 a:visited{}
 a:hover{color:#f78418;}
@@ -21,17 +21,14 @@ a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(imag
 a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
 a[href$='.doc'],a[href$='.rtf'],a[href$='.txt']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
 a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
-@media print{
-	a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
-	}
 	
-/*List*/
+/*-List-*/
 ol{margin:.75em 1em;}
 	ol li{list-style:decimal outside;}
 ul{margin:.75em 1em;}
 	ul li{list-style-image:url(images/bullet.gif);}
 	
-/*Heading*/
+/*-Heading-*/
 h1{font-size:2.25em;margin:.75em 0 .25em 0;}
 	h1 a:link,h1 a:visited{}
 	h1 a:hover,h1 a:focus,h1 a:active{}
@@ -51,7 +48,7 @@ h6{font-size:.75em;margin:.75em 0 .25em 0;}
 	h6 a:link,h6 a:visited{}
 	h6 a:hover,h6 a:focus,h6 a:active{}
 
-/*Form*/
+/*-Form-*/
 fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
 	/*ALA pretty forms*/
 	fieldset ol{margin:0;padding:0;}
@@ -66,7 +63,7 @@ fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
 	optgroup{background:transparent;}
 		option{background:transparent;}
 
-/*Table*/
+/*-Table-*/
 table{border:1px solid #ccc;border-collapse:collapse;border-spacing:0;font-size:inherit;margin:1.5em 10px;}
 	thead{background:#ccc;font-weight:bold;}
 		th{border-right:1px solid #ccc;border-bottom:1px solid #eee;padding:.25em 10px;}
@@ -74,7 +71,7 @@ table{border:1px solid #ccc;border-collapse:collapse;border-spacing:0;font-size:
 	tbody tr:nth-child(even){background:#f9f9f9;}
 	td{border-right:1px solid #ccc;border-bottom:1px solid #eee;padding:.25em 10px;}
 
-/*Other*/
+/*-Other-*/
 abbr{border-bottom:1px dotted #666;cursor:help;white-space:nowrap;}
 acronym{border-bottom:1px dotted #666;cursor:help;white-space:nowrap;}
 address{font-style:italic;}
@@ -89,8 +86,8 @@ img{-ms-interpolation-mode:bicubic;border:0 none;}
 p{clear:both;margin:1.5em 0;}
 q{quotes:"\201C""\201D""\2018""\2019";}
 strong{font-weight:bold;}
-sub{bottom:-0.25em;position:relative;vertical-align:baseline;}
-sup{bottom:0.33em;position:relative;vertical-align:baseline;}
+sub{bottom:-.25em;position:relative;vertical-align:baseline;}
+sup{bottom:.33em;position:relative;vertical-align:baseline;}
 	
 /*--Utility Classes--*/
 .button{-moz-appearance:button;-webkit-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
@@ -104,7 +101,7 @@ sup{bottom:0.33em;position:relative;vertical-align:baseline;}
 	.pill-r,button.pill-r,input.pill-r{-moz-border-radius-bottomleft:1px;-moz-border-radius-topleft:1px;-webkit-border-top-left-radius:1px;-webkit-border-bottom-left-radius:1px;border-top-left-radius:1px;border-bottom-left-radius:1px;border-color:#ccc #bbb #bbb #fff;margin-left:0;}
 
 /*--Internationalization--*/
-/*right-to-left support*/
+/*-Right-to-left support-*/
 body[dir="rtl"],.rtl{direction:rtl;}
 	body[dir="rtl"] aside,.rtl aside,body[dir="rtl"] header,.rtl header,body[dir="rtl"] nav,.rtl nav{clear:left;float:left;}
 	body[dir="rtl"] article,.rtl article{float:right;}
@@ -116,7 +113,7 @@ body[dir="rtl"],.rtl{direction:rtl;}
 		body[dir="rtl"] .pill-l,.rtl .pill-l,body[dir="rtl"] input.pill-l,.rtl input.pill-l{-moz-border-radius-bottomleft:1px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:1px;-moz-border-radius-topright:3px;-webkit-border-bottom-left-radius:1px;-webkit-border-bottom-right-radius:3px;-webkit-border-top-left-radius:1px;-webkit-border-top-right-radius:3px;border-bottom-left-radius:1px;border-bottom-right-radius:3px;border-top-left-radius:1px;border-top-right-radius:3px;margin-left:0;}
 		body[dir="rtl"] .pill-r,.rtl .pill-r,body[dir="rtl"] input.pill-r,.rtl input.pill-r{-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:1px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:1px;-webkit-border-bottom-left-radius:3px;-webkit-border-bottom-right-radius:1px;-webkit-border-top-left-radius:3px;-webkit-border-top-right-radius:1px;border-bottom-left-radius:3px;border-bottom-right-radius:1px;border-top-left-radius:3px;border-top-right-radius:1px;border-color:#ccc #fff #bbb #bbb;margin-right:0;}
 
-/*Language-specific*/
+/*-Language-specific-*/
 :lang(af){quotes:'\201E' '\201D' '\201A' '\2019';}
 :lang(ak){font-family:Lucida,"DejaVu Sans",inherit;}
 :lang(ar){font-family:Tahoma 12,Nazli,KacstOne,"DejaVu Sans",inherit;}
@@ -157,7 +154,14 @@ nav,aside{clear:right;}
 .hawidu{margin:0 auto;width:960px;}
 	article{float:left;width:560px;}
 	footer{clear:both;margin:10px;}
+
+/*--Media Queries--*/
+/*-Print-*/
 @media print{
+	/*Tag-level*/
+	a:after{content:" (" attr(href) ") ";font-size:.8em;font-weight:normal;}
+	
+	/*Structure*/
 	.hawidu,article{float:none;margin:0;padding:0;width:100%;}
 		aside,footer,header,nav,.noprint{display:none;}
 	}
