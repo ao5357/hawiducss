@@ -89,7 +89,7 @@ sub{bottom:-0.25em;position:relative;vertical-align:baseline;}
 sup{bottom:0.33em;position:relative;vertical-align:baseline;}
 	
 /*--Utility Classes--*/
-.button{-moz-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
+.button{-moz-appearance:button;-webkit-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
 	.clicked,button.clicked,input.clicked{background-color:#e5e5e5;color:#fff;}
 .column{float:left;margin:1.5em 0;width:50%;} /* !Padding - Box model */
 	.multicol{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;}
