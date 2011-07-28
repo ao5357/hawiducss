@@ -5,7 +5,7 @@ html{background:#fff;color:#111;font-size:100.01%;}
 body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.5em;margin:0;padding:0;}
 blockquote,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,label,legend,li,ol,option,p,pre,select,td,textarea,th,ul{font-size:1em;margin:0;padding:0;}
 input{color:#111;font-family:Arial,sans-serif;vertical-align:top;}
-button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],#nav,pre,.radius,select{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,.radius,select{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
 embed,img,object{max-width:100%;}
 
 /*Link*/
@@ -44,8 +44,12 @@ h3{font-size:1.5em;margin:.75em 0 .25em 0;}
 h4{font-size:1.25em;margin:.75em 0 .25em 0;}
 	h4 a:link,h4 a:visited{}
 	h4 a:hover,h4 a:focus,h4 a:active{}
-h5,h5 a:link,h5 a:visited{font-size:1em;margin:.75em 0 .25em 0;}
-h6,h6 a:link,h6 a:visited{font-size:.75em;margin:.75em 0 .25em 0;}
+h5{font-size:1em;margin:.75em 0 .25em 0;}
+	h5 a:link,h5 a:visited{}
+	h5 a:hover,h5 a:focus,h5 a:active{}
+h6{font-size:.75em;margin:.75em 0 .25em 0;}
+	h6 a:link,h6 a:visited{}
+	h6 a:hover,h6 a:focus,h6 a:active{}
 
 /*Form*/
 fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
@@ -89,7 +93,7 @@ sub{bottom:-0.25em;position:relative;vertical-align:baseline;}
 sup{bottom:0.33em;position:relative;vertical-align:baseline;}
 	
 /*--Utility Classes--*/
-.button{-moz-appearance:button;-webkit-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
+.button{-moz-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
 	.clicked,button.clicked,input.clicked{background-color:#e5e5e5;color:#fff;}
 .column{float:left;margin:1.5em 0;width:50%;} /* !Padding - Box model */
 	.multicol{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;}
@@ -150,10 +154,10 @@ article,aside,footer,header,nav,section{background:#fff;display:block;margin:0 1
 aside,header,nav{float:right;width:320px;}
 nav,aside{clear:right;}
 
-#hawidu{margin:0 auto;padding:10px;width:960px;}
+.hawidu{margin:0 auto;width:960px;}
 	article{float:left;width:560px;}
 	footer{clear:both;margin:10px;}
 @media print{
-	#hawidu,article{float:none;margin:0;padding:0;width:100%;}
+	.hawidu,article{float:none;margin:0;padding:0;width:100%;}
 		aside,footer,header,nav,.noprint{display:none;}
 	}
