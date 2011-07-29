@@ -79,13 +79,11 @@ blockquote{background:#f9f9f9;border-left:10px solid #ccc;margin:1.5em 10px;padd
 	blockquote:before{color:#ccc;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
 	blockquote p{display:inline;}
 code,pre{background:#f9f9f9;border:1px solid #ccc;display:block;font-family:Consolas,"Bitstream Vera Sans Mono","Courier New",monospace;font-size:1em;margin:1.5em 10px;padding:.5em 10px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;}
-em{font-style:italic;}
 hr{background-color:#444;border-width:0;color:#444;height:2px;line-height:0;margin:1.8571em auto;page-break-after:always;text-align:center;width:90%;}
 	hr:after{content:"\a7\a7";font-size:1.25em;}
 img{-ms-interpolation-mode:bicubic;border:0 none;}
 p{clear:both;margin:1.5em 0;}
 q{quotes:"\201C""\201D""\2018""\2019";}
-strong{font-weight:bold;}
 sub{bottom:-.25em;position:relative;vertical-align:baseline;}
 sup{bottom:.33em;position:relative;vertical-align:baseline;}
 	
