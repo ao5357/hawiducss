@@ -1,7 +1,7 @@
 /*---[Name of Project] — Maintained by:[Maintainer] Email:[Maintainer's Email] — based on Hawidu CSS: http://code.google.com/p/hawiducss/ ---*/
 /*--Type Selectors--*/
 /*-Body-reset-*/
-html{-webkit-font-smoothing:antialiased;font-size:100.01%;}
+html{font-size:100.01%;}
 body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.5em;margin:0;}
 article,aside,figure,footer,header,hgroup,nav,section{display:block;}
 input{color:#111;font-family:Arial,sans-serif;vertical-align:top;}
