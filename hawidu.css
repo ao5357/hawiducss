@@ -2,7 +2,7 @@
 /*--Type Selectors--*/
 /*-Body-reset-*/
 html{font-size:100.01%;}
-body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.5em;margin:0;}
+body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.45;margin:0;}
 article,aside,figure,footer,header,hgroup,nav,section{display:block;}
 input{color:#111;font-family:Arial,sans-serif;vertical-align:top;}
 button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,select{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
