@@ -54,7 +54,7 @@ fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
 	/*ALA pretty forms*/
 	fieldset ol{margin:0;padding:0;}
 		fieldset li{list-style:none;margin:0;padding:.4em .75em;}
-			fieldset li label{display:inline-block;margin:0 1em 0 0;width:9em;}
+			fieldset li label,fieldset li .implicit-label{display:inline-block;margin:0 1em 0 0;width:9em;}
 	input[type="password"],input[type="text"]{border:1px solid;border-color:#bbb #ccc #ccc #bbb;padding:.1em;}
 	button,.button,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],select{background:#f9f9f9 url(images/sm_gradient_overlay.png) center left repeat-x;border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;padding:.1em 10px;}
 		button:hover,.button:hover,input[type="file"] > input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background-color:#f0f0f0;}
