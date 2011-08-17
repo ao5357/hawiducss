@@ -23,10 +23,11 @@ a[href$='.doc'],a[href$='.rtf']{background:transparent url(images/file_icon_spri
 a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
 	
 /*-List-*/
-ol{margin:.75em 1em;}
+ol{margin:.75em 0;padding:0 1em;}
 	ol li{list-style:decimal outside;}
-ul{margin:.75em 1em;}
-	ul li{list-style-image:url(images/bullet.gif);}
+ul{margin:.75em 0;padding:0 1em;}
+	ul li{list-style:none;}
+    ul li:before{border-color:transparent #111;border-style:solid;border-width:.35em 0 .35em .45em;content:"";display:block;height:0;left:-1em;position:relative;top:1.09em;width:0;}
 	
 /*-Heading-*/
 h1{font-size:2.25em;margin:.75em 0 .25em 0;}
