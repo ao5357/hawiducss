@@ -58,7 +58,7 @@ fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
 	input[type="password"],input[type="text"]{border:1px solid;border-color:#bbb #ccc #ccc #bbb;padding:.1em;}
 	button,.button,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],select{background:#f9f9f9 url(images/sm_gradient_overlay.png) center left repeat-x;border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;padding:.1em 10px;}
 		button:hover,.button:hover,input[type="file"] > input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background-color:#f0f0f0;}
-		button,.button,input[type="reset"],input[type="submit"]{margin:0 5px;}
+		button,.button,input[type="reset"],input[type="submit"]{margin:0 1em 0 0;}
 		input[type="file"]{font-size:.714em;}
 		select[size],select[multiple]{background-image:none;}
 	optgroup{background:transparent;}
