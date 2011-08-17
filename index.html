@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hawidu CSS | You'd add it all anyway</title>
+<link rel="stylesheet" type="text/css" href="http://hawiducss.googlecode.com/git/hawidu.css">
+<style>
+ul{margin:.75em 0;padding:0 1em;}
+	ul li{list-style-image:none;list-style-type:none;}
+		ul li:before{border-color:transparent #111;border-radius:.2em;border-style:solid;border-width:.35em 0 .35em .45em;content:"";display:block;height:0;left:-1em;position:relative;top:1.09em;width:0;} 
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body>
+<div class="hawidu">
+<header>
+    <h1>Hawidu CSS</h1>
+    <p>Makes browsers play nice, with some eye candy.</p>
+</header>
+
+<article>
+	<h1>Why Use Hawidu CSS?</h1>
+	<p>It's a <a target="_blank" href="http://code.google.com/p/hawiducss/">respectably-small CSS file</a> that does a few important things right off the bat:</p>
+	<ul><li>Lays out a working file, rather than making you add on to framework files
+		<ul><li>limits unnecessary cascading</li>
+			<li>provides a common-sense organization and coding style</li>
+			<li>makes it likely you'll understand what Hawidu does, rather than relying on it blindly</li></ul></li>
+	<li>Normalizes padding/margin and font-size across elements and browsers.</li>
+	<li>Adds progressively-enhanced niceties, like gmail-style buttons (and pillboxes!) and pretty blockquotes</li>
+	<li>Focuses on semantics, even in the utility classes</li></ul>
+	<form><fieldset><legend>This is a fieldset</legend>
+	<ol><li><label for="text">Text</label><input id="text" type="text" value="easy pretty forms" name="awesome" /></li>
+	<li><label for="password">Password</label><input id="password" type="password" value="p455w0rd" name="password" /></li>
+	<li><label for="file">File</label><input id="file" type="file" value="" name="file" /></li>
+	<li><label for="fil">Select</label><select id="f11" name="select2">
+		<option>one</option>
+		<option selected>two (default)</option>
+		<option>three</option>
+	</select></li>
+	<li><label for="fil">Multi-Select</label><select id="f11" name="select2" size="3">
+		<option>one</option>
+		<option selected>two (default)</option>
+		<option>three</option>
+	</select></li>
+	<li><input id="reset" type="reset" value="Reset" name="awesome" /><input id="sub" type="submit" value="Submit" name="awesome" /></li>
+	<li>This is a pillbox: <input class="pill-l" id="reset" type="reset" value="Reset" name="awesome" /><select class="pill" id="f11" name="select2">
+		<option>one</option>
+		<option selected>two</option>
+		<option>three</option>
+	</select><button class="pill" type="button">Button</button><input class="pill-r" id="sub" type="submit" value="Submit" name="awesome" /></li>
+	<li><label for="checkbox">Checkbox</label><input id="checkbox" type="checkbox" value="p455w0rd" name="checkbox" /></li></ol>
+	</fieldset></form>
+	<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+	<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+	<hr/>
+<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+	<blockquote>Not really quoting a block of text; please forgive me. I just wanted to point out that the quotation mark shows up on browsers that recognize blockquote:before, and all mention of the mark is within that selector. So, if you have an old or crummy browser, you see a plain blockquote with just the left border and background.</blockquote>
+As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+	<pre>
+	This is a &lt;pre&gt; element.
+	   See three spaces?
+	Is this on a new line?
+	Yeah, PRE is pretty cool like that. Why don't we just make our webpages as just one big PRE element?</pre>
+<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+	<p class="drop-cap">When I wake up, before I put on my makeup; I say a little pray for you. While combing my hair now, and wondering what dress to wear now, I say a little prayer for you. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+	<code>code{color:#ffcc44;}</code>
+	<p class="multicol">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Good Table</h2>
+	<table><thead>
+	<tr><th>Col One</th><th>Col Two</th><th>Col Three</th></tr>
+	</thead><tbody>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	</tbody></table>
+<h2>Shitty Table</h2>
+	<table>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	</table>
+	
+	<h2>Text-level markup</h2>
+
+	<ul><li><abbr title="Cascading Style Sheets">CSS</abbr> an abbreviation.</li>
+	  <li><acronym title="radio detecting and ranging">radar</acronym> an acronym</li>
+	  <li><cite>Origin of Species</cite> a book title</li>
+	  <li> this is <em>very</em> simple markup used for emphasizing a word</li>
+	  <li><strong>this is highlighted text</strong>
+	  <li>In order to test how subscripts and superscripts work inside running text, we need some dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O (where subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M<sup>lle</sup>, 1<sup>st</sup>, and then some mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>, and some nested superscripts (exponents) too: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li></ul>
+	
+	<p>Some of the elements tested above are typically displayed in a monospace font, often using the <em>same</em> presentation for all of them. This tests whether that is the case on your browser:</p>
+</article>
+
+<nav>
+	<h2>&lt;nav&gt;</h2>
+	<ul><li><a href="mailto:ao5357@gmail.com">Mail Link</a></li>
+		<li><a href="test.pdf">PDF Link</a></li>
+		<li><a href="test.pptx">Powerpoint Link</a></li>
+		<li><a href="test.xlsx">Excel Link</a></li>
+		<li><a href="test.doc">Word Link</a></li>
+		<li><a href="test.zip">Zip Link</a></li></ul>
+</nav>
+
+<aside>
+	<h2>&lt;aside&gt;</h2>
+	<h1>&lt;h1&gt; looks like this</h1>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+	<h2>&lt;h2&gt; looks like this</h2>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+	<h3>&lt;h3&gt; looks like this</h3>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+	<h4>&lt;h4&gt; looks like this</h4>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+	<h5>&lt;h5&gt; looks like this</h5>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+	<h6>&lt;h6&gt; looks like this</h6>
+	<p>Riding rocking rolling cheesecakes ahoy!</p>
+</aside>
+
+<footer>
+	<p>I'm a &lt;footer&gt;!</p>
+	<p><abbr>HTML</abbr> 5 is brought to you by <a href="http://blog.whatwg.org/">Hixie's Pixies</a>. Roll on <a href="http://ishtml5readyyet.com/">2022</a>!</p>
+	<ol><li>One</li>
+	<li>Two</li>
+	<li>Three</li>
+	<li>Four</li>
+	<li>Five</li></ol>
+</footer>
+
+</div></body>
+</html>
