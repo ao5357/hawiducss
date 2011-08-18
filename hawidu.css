@@ -51,7 +51,6 @@ h6{font-size:.75em;margin:.75em 0 .25em 0;}
 
 /*-Form-*/
 fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
-	/*ALA pretty forms*/
 	fieldset ol{margin:0;padding:0;}
 		fieldset li{list-style:none;margin:0;padding:.4em .75em;}
 			fieldset li label,fieldset li .implicit-label{display:inline-block;margin:0 1em 0 0;width:9em;}
@@ -92,8 +91,8 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 /*--Utility Classes--*/
 .button{-moz-appearance:button;-webkit-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
 	.clicked,button.clicked,input.clicked{background-color:#e5e5e5;color:#fff;}
-.column{float:left;margin:1.5em 0;width:50%;} /* !Padding - Box model */
-	.multicol{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;}
+.column{float:left;margin:1.5em 0;width:50%;}
+	.columnated-text{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;}
 .hide{display:none;}
 	.away{position:absolute;left:-9999px;}
 .pill,button.pill,input.pill{-moz-border-radius:1px;-webkit-border-radius:1px;border-color:#ccc #bbb #bbb #fff;border-radius:1px;margin:0;}
