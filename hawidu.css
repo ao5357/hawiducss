@@ -66,6 +66,7 @@ fieldset{border:1px solid #e3e3e3;margin:1.5em 10px;padding:.5em 10px;}
 
 /*-Table-*/
 table{border:1px solid #ccc;border-collapse:collapse;border-spacing:0;font-size:inherit;margin:1.5em 10px;}
+  caption{font-size:.75em;}
 	thead{background:#ccc;font-weight:bold;}
 		th{border-right:1px solid #ccc;border-bottom:1px solid #eee;padding:.25em 10px;}
 	tbody tr:hover{background:#eee;}
