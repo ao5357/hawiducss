@@ -17,14 +17,26 @@
 <article>
    <h1>Why Use Hawidu CSS?</h1>
    <ul>
-     <li>Single working file: no sprawl, deploy as-is<ul>
-       <li>Limits unnecessary cascading</li>
+     <li>Single working file: no sprawl, deploy as-is<ol>
+       <li>Limits unnecessary cascading<ul>
+         <li>This item tests a ul nested in an ol nested in a ul</li>
+         <li>This item tests a ul nested in an ol nested in a ul</li>
+       </ul><ol>
+         <li>This item tests an ol nested in an ol nested in a ul</li>
+         <li>This item tests an ol nested in an ol nested in a ul</li>
+       </ol></li>
        <li>Provides common-sense organization and coding style</li>
-       </ul></li>
+       </ol></li>
      <li>Base: normalizes elements and trusts browsers</li>
      <li>Progressive enhancement: form elements, pretty blockquotes</li>
      <li>Semantic: even the utility classes</li>
-     </ul> 
+     </ul><ol>
+      <li>OL level 1<ul>
+        <li>UL in OL level 2</li>
+        </ul><ol>
+        <li>OL in OL level 2</li>
+        </ol></li>
+    </ol>
   <form><fieldset><legend>This is a fieldset</legend>
 	<ol>
   <li><label for="text">Text</label><input id="text" type="text" value="easy pretty forms" name="awesome" /></li>
