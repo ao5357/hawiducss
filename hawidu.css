@@ -25,7 +25,7 @@ a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(imag
 /*-List-*/
 ol{list-style:decimal outside;margin:.75em 0;padding:0 1em;}
 ul{list-style-type:none;margin:.75em 0;padding:0 1em;}
-  ul li:before{border-color:transparent #111;border-style:solid;border-width:.35em 0 .35em .45em;content:"";display:block;height:0;left:-1em;position:relative;top:1.09em;width:0;}
+  ul>li:before{border-color:transparent #111;border-style:solid;border-width:.35em 0 .35em .45em;content:"";display:block;height:0;left:-1em;position:relative;top:1.09em;width:0;}
 	
 /*-Heading-*/
 h1{font-size:2.25em;margin:.75em 0 .25em 0;}
