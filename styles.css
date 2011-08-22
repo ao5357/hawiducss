@@ -21,12 +21,12 @@ a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(imag
 a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
 a[href$='.doc'],a[href$='.rtf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
 a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
-	
+
 /*-List-*/
 ol{list-style:decimal outside;margin:.75em 0;padding:0 1em;}
 ul{list-style-type:none;margin:.75em 0;padding:0 1em;}
-  ul>li:before{border-color:transparent #111;border-style:solid;border-width:.35em 0 .35em .45em;content:"";display:block;height:0;left:-1.3em;position:relative;top:1.09em;width:0;}
-	
+	ul>li:before{border-color:transparent #111;border-style:solid;border-width:.35em 0 .35em .45em;content:"";display:block;height:0;left:-1.3em;position:relative;top:1.09em;width:0;}
+
 /*-Heading-*/
 h1{font-size:2.25em;margin:.75em 0 .25em 0;}
 	h1 a:link,h1 a:visited{}
@@ -58,13 +58,13 @@ fieldset{border:1px solid #e3e3e3;margin:1.5em 0;padding:.5em 1em;}
 		button,.button,input[type="reset"],input[type="submit"]{margin:0 1em 0 0;}
 		input[type="file"]{font-size:.714em;}
 		select[size],select[multiple]{background-image:none;}
-  legend{margin:0 0 0 .6em;}
+	legend{margin:0 0 0 .6em;}
 	optgroup{background:transparent;}
 		option{background:transparent;}
 
 /*-Table-*/
 table{border:1px solid #ccc;border-collapse:collapse;border-spacing:0;font-size:inherit;margin:1.5em 10px;}
-  caption{font-size:.75em;}
+	caption{font-size:.75em;}
 	thead{background:#ccc;font-weight:bold;}
 		th{border-right:1px solid #ccc;border-bottom:1px solid #eee;padding:.25em 10px;}
 	tbody tr:hover{background:#eee;}
@@ -77,7 +77,7 @@ address{font-style:italic;}
 blockquote{background:#f9f9f9;border-left:1em solid #eee;margin:1.5em 1em;padding:.5em 1em;quotes:"\201C""\201D";}
 	blockquote:before{color:#808080;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
 	blockquote :first-child{display:inline;}
-  blockquote :last-child{margin-bottom:0;}
+	blockquote :last-child{margin-bottom:0;}
 code,pre{background:#f9f9f9;border:1px solid #ccc;display:block;font-family:Consolas,"Bitstream Vera Sans Mono","Courier New",monospace;font-size:1em;margin:1.5em 10px;padding:.5em 10px;white-space:pre-wrap;}
 hr{background-color:#444;border-width:0;color:#444;height:2px;line-height:0;margin:1.8571em auto;page-break-after:always;text-align:center;width:90%;}
 	hr:after{content:"\a7\a7";font-size:1.25em;}
@@ -86,7 +86,7 @@ p{clear:both;margin:1.5em 0;}
 q{quotes:"\201C""\201D""\2018""\2019";}
 sub{bottom:-.25em;position:relative;vertical-align:baseline;}
 sup{bottom:.33em;position:relative;vertical-align:baseline;}
-	
+
 /*--Utility Classes--*/
 .button{-moz-appearance:button;-webkit-appearance:button;color:#000;display:inline-block;padding:.1em 10px;text-decoration:none;}
 	.clicked,button.clicked,input.clicked{background-color:#e5e5e5;color:#fff;}
@@ -105,7 +105,7 @@ article,aside,footer,header,nav,section{background:#fff;margin:0 10px;padding:0 
 aside,header,nav{float:right;width:320px;}
 nav,aside{clear:right;}
 
-.hawidu{margin:0 auto;width:960px;}
+.page{margin:0 auto;width:960px;}
 	article{float:left;width:560px;}
 	footer{clear:both;margin:10px;}
 
@@ -116,6 +116,6 @@ nav,aside{clear:right;}
 	a:after{content:" (" attr(href) ") ";font-size:.8em;font-weight:normal;}
 	
 	/*Structure*/
-	.hawidu,article{float:none;margin:0;padding:0;width:100%;}
+	.page,article{float:none;margin:0;padding:0;width:100%;}
 		aside,footer,header,nav,.noprint{display:none;}
 	}
