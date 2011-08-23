@@ -5,7 +5,7 @@ html{font-size:100.01%;}
 body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.45;margin:0;}
 article,aside,figure,footer,header,hgroup,nav,section{display:block;}
 input{color:#111;font-family:Arial,sans-serif;vertical-align:top;}
-button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,select{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,select{border-radius:3px;}
 embed,img,object{max-width:100%;}
 
 /*-Link-*/
@@ -74,7 +74,7 @@ table{border:1px solid #ccc;border-collapse:collapse;border-spacing:0;font-size:
 /*-Other-*/
 abbr,acronym{border-bottom:1px dotted #666;cursor:help;white-space:nowrap;}
 address{font-style:italic;}
-blockquote{background:#f9f9f9;border-left:1em solid #eee;margin:1.5em 1em;padding:.5em 1em;quotes:"\201C","\201C";}
+blockquote{background:#f9f9f9;border-left:1em solid #eee;margin:1.5em 1em;padding:.5em 1em;quotes:'\201C' '\201C' '\201C' '\201C';}
 	blockquote:before{color:#808080;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
 	blockquote :first-child{display:inline;}
 	blockquote :last-child{margin-bottom:0;}
@@ -94,9 +94,9 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 	.columnated-text{-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px;}
 .hide{display:none;}
 	.away{position:absolute;left:-9999px;}
-.pill,button.pill,input.pill{-moz-border-radius:1px;-webkit-border-radius:1px;border-color:#ccc #bbb #bbb #fff;border-radius:1px;margin:0;}
-	.pill-l,button.pill-l,input.pill-l{-moz-border-radius-bottomright:1px;-moz-border-radius-topright:1px;-webkit-border-top-right-radius:1px;-webkit-border-bottom-right-radius:1px;border-top-right-radius:1px;border-bottom-right-radius:1px;margin-right:0;}
-	.pill-r,button.pill-r,input.pill-r{-moz-border-radius-bottomleft:1px;-moz-border-radius-topleft:1px;-webkit-border-top-left-radius:1px;-webkit-border-bottom-left-radius:1px;border-top-left-radius:1px;border-bottom-left-radius:1px;border-color:#ccc #bbb #bbb #fff;margin-left:0;}
+.pill,button.pill,input.pill{border-color:#ccc #bbb #bbb #fff;border-radius:1px;margin:0;}
+	.pill-l,button.pill-l,input.pill-l{border-top-right-radius:1px;border-bottom-right-radius:1px;margin-right:0;}
+	.pill-r,button.pill-r,input.pill-r{border-top-left-radius:1px;border-bottom-left-radius:1px;border-color:#ccc #bbb #bbb #fff;margin-left:0;}
 
 /*--Internationalization--*/
 
