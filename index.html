@@ -39,7 +39,9 @@
     </ol>
   <form><fieldset><legend>This is a fieldset</legend>
 	<ol>
-  <li><label for="text">Text</label><input id="text" type="text" value="easy pretty forms" name="awesome" /></li>
+	<li><label for="text">Text</label><input id="text" type="text" value="easy pretty forms" name="awesome" /></li>
+	<li><label for="placeholder">Text (HTML5)</label><input id="placeholder" type="text" name="placeholder" placeholder="This is a placeholder" /></li>
+	<li><label for="search">Search (HTML5)</label><input id="search" type="search" value="x over there &rarr;" name="search" /></li>
 	<li><label for="password">Password</label><input id="password" type="password" value="p455w0rd" name="password" /></li>
 	<li><label for="file">File</label><input id="file" type="file" value="" name="file" /></li>
 	<li><label for="fil">Select</label><select id="f11" name="select2">
@@ -52,13 +54,21 @@
 		<option selected>two (default)</option>
 		<option>three</option>
 	</select></li>
-     <li><span class="implicit-label">Default Buttons</span><input id="reset" type="reset" value="Reset" name="awesome" /><input id="sub" type="submit" value="Submit" name="awesome" /></li>
-     <li><span class="implicit-label">Pillbox</span><input class="pill-l" id="reset" type="reset" value="Reset" name="awesome" /><select class="pill" id="f11" name="select2">
+	<li><span class="implicit-label">Pillbox</span><input class="pill-l" id="reset" type="reset" value="Reset" name="awesome" /><select class="pill" id="f11" name="select2">
 		<option>one</option>
 		<option selected>two</option>
 		<option>three</option>
 	</select><button class="pill" type="button">Button</button><input class="pill-r" id="sub" type="submit" value="Submit" name="awesome" /></li>
-	<li><label for="checkbox">Checkbox</label><input id="checkbox" type="checkbox" value="p455w0rd" name="checkbox" /></li></ol>
+	<li><label for="checkbox">Checkbox</label><input id="checkbox" type="checkbox" value="p455w0rd" name="checkbox" /></li>
+	<li><label for="color">Color Picker</label><input id="color" type="color" value="FFCC00" name="color" /></li>
+	<li><label for="spinbox">Number</label><input id="number" type="number" min="0" max="10" step="2" value="6" name="number" /></li>
+	<li><label for="textarea">Textarea</label><textarea id="textarea" name="textarea"></textarea></li>
+	<li><label for="slider">Slider</label><input id="slider" type="range" min="0" max="10" step="2" value="6" name="slider" /></li>
+	<li><label for="keygen">Keygen</label><keygen id="keygen" name="keygen" /></li>
+	<li><span class="implicit-label">Meter</span><meter value="2" min="0" max="10">2 out of 10</meter></li>
+	<li><span class="implicit-label">Progress</span><progress value="22" max="100">22%</progress></li>
+	<li><span class="implicit-label">Default Buttons</span><input id="reset" type="reset" value="Reset" name="awesome" /><input id="sub" type="submit" value="Submit" name="awesome" /></li>
+	</ol>
 	</fieldset></form>
 	<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
 	<p>This paragraph follows a paragraph, which followed a form with a frameset. After this paragraph is a horizontal rule, then another paragraph, then a blockquote with no inner elements. Following the blockquote is the contents of a paragraph (but not wrapped in the tags), followed by a blockquote with two paragraphs inside it.</p>
@@ -135,7 +145,10 @@ This text is not within a block-level element, but has a blockquote and a paragr
 
 <footer>
 	<p>I'm a &lt;footer&gt;!</p>
-	<p><abbr>HTML</abbr> 5 is brought to you by <a href="http://blog.whatwg.org/">Hixie's Pixies</a>. Roll on <a href="http://ishtml5readyyet.com/">2022</a>!</p>
+	<details>
+		<summary>Public Domain 2011</summary>
+		<p>A &lt;details&gt; section is supposed to be toggle-able? But only in Chrome for now?</p>
+	</details>
 </footer>
 
 </div></body>
