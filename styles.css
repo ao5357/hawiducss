@@ -113,7 +113,8 @@ nav,aside{clear:right;}
 /*-Print-*/
 @media print{
 	/*Tag-level*/
-	a:after{content:" (" attr(href) ") ";font-size:.8em;font-weight:normal;}
+	a[href^=http]:after{content:" (" attr(href) ") ";font-size:.8em;font-weight:normal;}
+  abbr[title]:after,acronym[title]:after{content:" (" attr(title) ") ";font-size:.8em;font-weight:normal;}
 	
 	/*Structure*/
 	.page,article{float:none;margin:0;padding:0;width:100%;}
