@@ -44,17 +44,17 @@
 	<li><label for="search">Search (HTML5)</label><input id="search" type="search" value="x over there &rarr;" name="search" /></li>
 	<li><label for="password">Password</label><input id="password" type="password" value="p455w0rd" name="password" /></li>
 	<li><label for="file">File</label><input id="file" type="file" value="" name="file" /></li>
-	<li><label for="fil">Select</label><select id="f11" name="select2">
+	<li><label for="select">Select</label><select id="select" name="select">
 		<option>one</option>
 		<option selected>two (default)</option>
 		<option>three</option>
 	</select></li>
-	<li><label for="fil">Multi-Select</label><select id="f11" name="select2" size="3">
+	<li><label for="select2">Multi-Select</label><select id="select2" name="select2" size="3">
 		<option>one</option>
 		<option selected>two (default)</option>
 		<option>three</option>
 	</select></li>
-	<li><span class="implicit-label">Pillbox</span><input class="pill-l" id="reset" type="reset" value="Reset" name="awesome" /><select class="pill" id="f11" name="select2">
+	<li><span class="implicit-label">Pillbox</span><input class="pill-l" id="reset" type="reset" value="Reset" name="awesome" /><select class="pill" id="select3" name="select">
 		<option>one</option>
 		<option selected>two</option>
 		<option>three</option>
@@ -76,7 +76,7 @@
 <p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
 <blockquote>Not really quoting a block of text; please forgive me. I just wanted to point out that the quotation mark shows up on browsers that recognize blockquote:before, and all mention of the mark is within that selector. So, if you have an old or crummy browser, you see a plain blockquote with just the left border and background.</blockquote>
 This text is not within a block-level element, but has a blockquote and a paragraph surrounding it. The goal is for this text to break with even spacing to those elements; as if it were itself a paragraph.
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <mark>quis nostrud</mark> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <blockquote><p>This blockquote contains two paragraphs. This one and the one below it. This sentence is entirely used as filler so that the paragraph wraps at least a line or two. Otherwise the reason for the test isn't totally apparent. I'm still typing, but I think I'll stop at the end of this sentence.</p><p>A block-level element can contain block-level elements, which can lead to uneven spacing. We mitigate this by making the first child inline (this allows the quotation mark to do its thing) and eliminating the margin-bottom of the last child.</p></blockquote>
 <p>We've already determined that paragraphs play nice, so this paragraph is here mostly as a reference between the container blockquote and the pre element.</p>
 	<pre>
@@ -86,7 +86,8 @@ This text is not within a block-level element, but has a blockquote and a paragr
 	Yeah, PRE is pretty cool like that. Why don't we just make our webpages as just one big PRE element?</pre>
 <p>After this paragraph is a code block, followed by a classed paragraph that is presently styled to display in automatic textual columns.</p>
  <code>code{color:#ffcc44;}</code>
- <p class="columnated-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p class="columnated-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
 <h2>Good Table</h2>
   <table><caption>This table has a thead and tbody. It was made to hold tabular data.</caption><thead>
 	<tr><th>Col One</th><th>Col Two</th><th>Col Three</th></tr>
@@ -107,14 +108,15 @@ This text is not within a block-level element, but has a blockquote and a paragr
 	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
 	</table>
 	
-	<h2>Text-level markup</h2>
-
-	<ul><li><abbr title="Cascading Style Sheets">CSS</abbr> an abbreviation.</li>
+	<h2>Text-level markup</h2><ul>
+		<li><abbr title="Cascading Style Sheets">CSS</abbr> an abbreviation.</li>
 	  <li><acronym title="radio detecting and ranging">radar</acronym> an acronym</li>
 	  <li><cite>Origin of Species</cite> a book title</li>
 	  <li>this is <em>very</em> simple markup used for emphasizing a word</li>
 	  <li><strong>this is highlighted text</strong>
-	  <li>In order to test how subscripts and superscripts work inside running text, we need some dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O (where subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M<sup>lle</sup>, 1<sup>st</sup>, and then some mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>, and some nested superscripts (exponents) too: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li></ul>
+	  <li>In order to test how subscripts and superscripts work inside running text, we need some dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O (where subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M<sup>lle</sup>, 1<sup>st</sup>, and then some mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>, and some nested superscripts (exponents) too: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+		<li>If I want to <mark>mark some text</mark> for some reason, it would look like that</li> 
+	</ul>
 </article>
 
 <nav>

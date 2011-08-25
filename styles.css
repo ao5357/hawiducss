@@ -4,8 +4,9 @@
 html{font-size:100.01%;}
 body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.45;margin:0;}
 article,aside,figure,footer,header,hgroup,nav,section{display:block;}
-input,select,textarea{border:1px solid;border-color:#bbb #ccc #ccc #bbb;color:#111;font-family:Arial,sans-serif;padding:.1em;vertical-align:top;}
+button,input,select,textarea{border:1px solid;border-color:#bbb #ccc #ccc #bbb;color:#111;font-family:Arial,sans-serif;font-size:1em;padding:.1em;vertical-align:top;}
 	input:-moz-placeholder{color:graytext;}
+	input[type=search]{-webkit-appearance:textfield;}
 button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,select{border-radius:3px;}
 embed,img,object{max-width:100%;}
 
@@ -75,7 +76,8 @@ code,pre{background:#f9f9f9;border:1px solid #ccc;display:block;font-family:Cons
 hr{background-color:#444;border-width:0;color:#444;height:2px;line-height:0;margin:1.8571em auto;page-break-after:always;text-align:center;width:90%;}
 	hr:after{content:"\a7\a7";font-size:1.25em;}
 img{-ms-interpolation-mode:bicubic;border:0 none;}
-mark{}
+mark{background:orange;margin:-.2em;padding:.2em;}
+meter{-moz-appearance:progressbar;}
 p{clear:both;margin:1.5em 0;}
 q{quotes:"\201C""\201D""\2018""\2019";}
 sub{bottom:-.25em;position:relative;vertical-align:baseline;}
