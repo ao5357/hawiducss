@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html><head>
+<title>Font Comic Sans | Hawidu CSS</title>
+<link rel="stylesheet" type="text/css" href="../../../styles.css" />
+<link rel="stylesheet" type="text/css" href="font-comicsans.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body>
+<div class="page">
+<header>
+	<h1>Hawidu CSS</h1>
+	<p>The CSS framework you <em>should</em> be using.</p>
+</header>
+
+<article>
+	<h1>Font "Comic Sans" (Unsupported)</h1>
+	This test page renders in Comic Sans. While there's nothing inherently wrong with Comic Sans as a font, the use of the universal selector and the !important flag in order to implement it are certainly unsupported by the rules of the framework. This pastein could tentatively move through the approval process (pending, then approval) were its CSS to be refactored to abide by good styling practices.
+	<ul>
+		<li>Single working file: no sprawl, deploy as-is<ol>
+			<li>Limits unnecessary cascading<ul>
+				<li>Tests a ul nested in an ol nested in a ul</li>
+				<li>Tests a ul nested in an ol nested in a ul</li>
+				</ul><ol>
+			<li>Tests an ol nested in an ol nested in a ul</li>
+			<li>This item tests an ol nested in an ol nested in a ul</li>
+			</ol></li>
+		<li>Provides common-sense organization and coding style</li>
+		</ol></li>
+		<li>Base: normalizes elements and trusts browsers</li>
+		<li>Progressive enhancement: form elements, pretty blockquotes</li>
+		<li>Semantic: even the utility classes</li>
+	</ul><ol>
+		<li>OL level 1<ul>
+			<li>UL in OL level 2</li>
+			</ul><ol>
+			<li>OL in OL level 2</li>
+			</ol></li>
+	</ol>
+<form><fieldset><legend>This is a fieldset</legend><ol>
+	<li><label for="text">Text</label><input id="text" type="text" value="easy pretty forms" name="awesome" /></li>
+	<li><label for="placeholder">Text (HTML5)</label><input id="placeholder" type="text" name="placeholder" placeholder="This is a placeholder" /></li>
+	<li><label for="search">Search (HTML5)</label><input id="search" type="search" value="x over there &rarr;" name="search" /></li>
+	<li><label for="password">Password</label><input id="password" type="password" value="p455w0rd" name="password" /></li>
+	<li><label for="file">File</label><input id="file" type="file" value="" name="file" /></li>
+	<li><label for="select">Select</label><select id="select" name="select">
+		<option>one</option>
+		<option selected>two (default)</option>
+		<option>three</option>
+		</select></li>
+	<li><label for="select2">Multi-Select</label><select id="select2" name="select2" size="3">
+		<option>one</option>
+		<option selected>two (default)</option>
+		<option>three</option>
+		</select></li>
+	<li><span class="implicit-label">Pillbox</span><input class="pill-l" id="reset" type="reset" value="Reset" name="awesome" /><select class="pill" id="select3" name="select">
+		<option>one</option>
+		<option selected>two</option>
+		<option>three</option>
+		</select>
+		<button class="pill" type="button">Button</button>
+		<input class="pill-r" id="sub" type="submit" value="Submit" name="awesome" /></li>
+	<li><label for="checkbox">Checkbox</label><input id="checkbox" type="checkbox" value="p455w0rd" name="checkbox" /></li>
+	<li><label for="color">Color Picker</label><input id="color" type="color" value="FFCC00" name="color" /></li>
+	<li><label for="spinbox">Number</label><input id="number" type="number" min="0" max="10" step="2" value="6" name="number" /></li>
+	<li><label for="textarea">Textarea</label><textarea id="textarea" name="textarea"></textarea></li>
+	<li><label for="slider">Slider</label><input id="slider" type="range" min="0" max="10" step="2" value="6" name="slider" /></li>
+	<li><label for="keygen">Keygen</label><keygen id="keygen" name="keygen" /></li>
+	<li><span class="implicit-label">Meter</span><meter value="2" min="0" max="10">2 out of 10</meter></li>
+	<li><span class="implicit-label">Progress</span><progress value="22" max="100">22%</progress></li>
+	<li><span class="implicit-label">Default Buttons</span><input id="reset" type="reset" value="Reset" name="awesome" /><input id="sub" type="submit" value="Submit" name="awesome" /></li>
+	</ol>
+</fieldset></form>
+<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+<p>This paragraph follows a paragraph, which followed a form with a frameset. After this paragraph is a horizontal rule, then another paragraph, then a blockquote with no inner elements. Following the blockquote is the contents of a paragraph (but not wrapped in the tags), followed by a blockquote with two paragraphs inside it.</p>
+<hr/>
+<p>As Eric Meyer shows in his blog post, <a href="http://meyerweb.com/eric/thoughts/2007/05/15/formal-weirdness/">Formal Weirdness</a>, form elements are pretty much impossible to target and style consistently across browsers. However, CSS2.1 selectors like can give some expected results. In cases of inconsistency, form controls in Hawidu still resemble their OS-inserted counterparts enough that usability should not be affected.</p>
+<blockquote>Not really quoting a block of text; please forgive me. I just wanted to point out that the quotation mark shows up on browsers that recognize blockquote:before, and all mention of the mark is within that selector. So, if you have an old or crummy browser, you see a plain blockquote with just the left border and background.</blockquote>
+This text is not within a block-level element, but has a blockquote and a paragraph surrounding it. The goal is for this text to break with even spacing to those elements; as if it were itself a paragraph.
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <mark>quis nostrud</mark> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<blockquote><p>This blockquote contains two paragraphs. This one and the one below it. This sentence is entirely used as filler so that the paragraph wraps at least a line or two. Otherwise the reason for the test isn't totally apparent. I'm still typing, but I think I'll stop at the end of this sentence.</p><p>A block-level element can contain block-level elements, which can lead to uneven spacing. We mitigate this by making the first child inline (this allows the quotation mark to do its thing) and eliminating the margin-bottom of the last child.</p></blockquote>
+<p>We've already determined that paragraphs play nice, so this paragraph is here mostly as a reference between the container blockquote and the pre element.</p>
+
+<pre>
+This is a &lt;pre&gt; element.
+   See three spaces?
+Is this on a new line?
+Yeah, PRE is pretty cool like that. Why don't we just make our webpages as just one big PRE element?
+</pre>
+
+<p>After this paragraph is a code block, followed by a classed paragraph that is presently styled to display in automatic textual columns.</p>
+<code>code{color:#ffcc44;}</code>
+<p class="columnated-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Good Table</h2>
+<table><caption>This table has a thead and tbody. It was made to hold tabular data.</caption><thead>
+	<tr><th>Col One</th><th>Col Two</th><th>Col Three</th></tr>
+</thead><tbody>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+</tbody></table>
+<h2>Shitty Table</h2>
+<table>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+	<tr><td>Data One</td><td>Data Two</td><td>Data Three</td></tr>
+</table>
+
+<h2>Text-level markup</h2><ul>
+	<li><abbr title="Cascading Style Sheets">CSS</abbr> an abbreviation.</li>
+	<li><acronym title="radio detecting and ranging">radar</acronym> an acronym</li>
+	<li><cite>Origin of Species</cite> a book title</li>
+	<li>this is <em>very</em> simple markup used for emphasizing a word</li>
+	<li><strong>this is highlighted text</strong>
+	<li>In order to test how subscripts and superscripts work inside running text, we need some dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O (where subscripts occur). So here is some fill so that you will (hopefully) see whether and how badly the subscripts and superscripts mess up vertical spacing between lines. Now superscripts: M<sup>lle</sup>, 1<sup>st</sup>, and then some mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>, and some nested superscripts (exponents) too: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+	<li>If I want to <mark>mark some text</mark> for some reason, it would look like that</li> 
+</ul>
+</article>
+
+<nav>
+<h2>&lt;nav&gt;</h2>
+<ul>
+	<li><a href="mailto:ao5357@gmail.com">Mail Link</a></li>
+	<li><a href="test.pdf">PDF Link</a></li>
+	<li><a href="test.pptx">Powerpoint Link</a></li>
+	<li><a href="test.xlsx">Excel Link</a></li>
+	<li><a href="test.doc">Word Link</a></li>
+	<li><a href="test.zip">Zip Link</a></li>
+</ul>
+</nav>
+
+<aside>
+<h2>&lt;aside&gt;</h2>
+<h1>&lt;h1&gt; looks like this</h1>
+<p>Headings are a particular pain when trying to space stuff evenly. They should scale reasonably, but should also no break the typographical grid.</p>
+<h2>&lt;h2&gt; looks like this</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+<h3>&lt;h3&gt; looks like this</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+<h4>&lt;h4&gt; looks like this</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+<h5>&lt;h5&gt; looks like this</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer</p>
+<h6>&lt;h6&gt; looks like this</h6>
+<p>Riding rocking rolling cheesecakes ahoy!</p>
+</aside>
+
+<footer>
+<p>I'm a &lt;footer&gt;!</p>
+<details>
+	<summary>Public Domain 2011</summary>
+	<p>A &lt;details&gt; section is supposed to be toggle-able? But only in Chrome for now?</p>
+</details>
+</footer>
+
+</div>
+</body></html>
