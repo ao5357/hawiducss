@@ -66,7 +66,7 @@ table{border:.1em solid #ccc;border-collapse:collapse;border-spacing:0;font-size
 	td{border-right:.1em solid #ccc;border-bottom:.1em solid #eee;padding:.25em 1em;}
 
 /*-Other-*/
-abbr,acronym{border-bottom:.1em dotted #666;cursor:help;white-space:nowrap;}
+abbr{border-bottom:.1em dotted #666;cursor:help;white-space:nowrap;}
 address{font-style:italic;}
 blockquote{background:#f9f9f9;border-left:1em solid #eee;margin:1.5em 1em;padding:.5em 1em;quotes:'\201C' '\201C' '\201C' '\201C';}
 	blockquote:before{color:#808080;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
