@@ -16,7 +16,25 @@
 
 <article>
 	<h1>WAI-ARIA Alerts</h1>
-	<p><a href="http://growl.info/">Growl</a>-style notifications that don't require focus or user action, <a href="http://www.w3.org/TR/wai-aria/roles#alert">per the ARIA spec</a>.</p>
+	<p><a href="http://growl.info/">Growl</a>-style notifications that don't require focus or user action, <a href="http://www.w3.org/TR/wai-aria/roles#alert">per the ARIA spec</a>. To use, paste the following CSS into styles.css:</p>
+<code>
+[role=alert]{-moz-animation:show 10s infinite;-webkit-animation:show 10s infinite;background:#444;background:rgba(68,68,68,.9);border-radius:1em;bottom:1em;box-shadow:0 0 .5em rgba(0,0,0,.5);color:#fff;padding:1em;position:absolute;right:1em;z-index:999;}
+@-moz-keyframes show{
+	from{opacity:0;}
+	33%{opacity:100;}
+	}
+@-webkit-keyframes show{
+	from{opacity:0;}
+	33%{opacity:100;}
+	}
+</code>
+<p>Then, wherever you want an alert, insert the following HTML where it can roam free in the body of the document (via absolute positioning). It doesn't have to be a div, just a block-display element that makes sense. You could do this programatically, but be sure to test the animation:</p>
+<code>
+&lt;div role="alert"&gt;
+	This alert can contain arbitrary HTML.
+	&lt;p&gt;In container nodes or otherwise.&lt;/p&gt;
+&lt;/div&gt;
+</code>
 </article>
 
 </div>

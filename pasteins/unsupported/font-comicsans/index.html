@@ -16,22 +16,12 @@
 
 <article>
 	<h1>Font "Comic Sans" (Unsupported)</h1>
-	This test page renders in Comic Sans. While there's nothing inherently wrong with Comic Sans as a font, the use of the universal selector and the !important flag in order to implement it are certainly unsupported by the rules of the framework. This pastein could tentatively move through the approval process (pending, then approval) were its CSS to be refactored to abide by good styling practices.
-	<ul>
-		<li>Single working file: no sprawl, deploy as-is<ol>
-			<li>Limits unnecessary cascading<ul>
-				<li>Tests a ul nested in an ol nested in a ul</li>
-				<li>Tests a ul nested in an ol nested in a ul</li>
-				</ul><ol>
-			<li>Tests an ol nested in an ol nested in a ul</li>
-			<li>This item tests an ol nested in an ol nested in a ul</li>
-			</ol></li>
-		<li>Provides common-sense organization and coding style</li>
-		</ol></li>
-		<li>Base: normalizes elements and trusts browsers</li>
-		<li>Progressive enhancement: form elements, pretty blockquotes</li>
-		<li>Semantic: even the utility classes</li>
-	</ul><ol>
+	<p>This test page renders in Comic Sans. While there's nothing inherently wrong with Comic Sans as a font, the use of the universal selector and the !important flag in order to implement it are certainly unsupported by the rules of the framework. This pastein could tentatively move through the approval process (pending, then approval) were its CSS to be refactored to abide by good styling practices.</p>
+	<p>Theoretically, you could paste this into your styles.css:</p>
+<code>
+*{font-family:Comic sans,"Comic Sans MS" !important;}
+</code>
+	<ol>
 		<li>OL level 1<ul>
 			<li>UL in OL level 2</li>
 			</ul><ol>
@@ -122,18 +112,6 @@ Yeah, PRE is pretty cool like that. Why don't we just make our webpages as just 
 	<li>If I want to <mark>mark some text</mark> for some reason, it would look like that</li> 
 </ul>
 </article>
-
-<nav>
-<h2>&lt;nav&gt;</h2>
-<ul>
-	<li><a href="mailto:ao5357@gmail.com">Mail Link</a></li>
-	<li><a href="test.pdf">PDF Link</a></li>
-	<li><a href="test.pptx">Powerpoint Link</a></li>
-	<li><a href="test.xlsx">Excel Link</a></li>
-	<li><a href="test.doc">Word Link</a></li>
-	<li><a href="test.zip">Zip Link</a></li>
-</ul>
-</nav>
 
 <aside>
 <h2>&lt;aside&gt;</h2>
