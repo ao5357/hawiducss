@@ -18,12 +18,16 @@
 	<h1>WAI-ARIA Alerts</h1>
 	<p><a href="http://growl.info/">Growl</a>-style notifications that don't require focus or user action, <a href="http://www.w3.org/TR/wai-aria/roles#alert">per the ARIA spec</a>. To use, paste the following CSS into styles.css:</p>
 <code>
-[role=alert]{-moz-animation:show 10s infinite;-webkit-animation:show 10s infinite;background:#444;background:rgba(68,68,68,.9);border-radius:1em;bottom:1em;box-shadow:0 0 .5em rgba(0,0,0,.5);color:#fff;padding:1em;position:absolute;right:1em;z-index:999;}
+[role=alert]{-moz-animation:show 10s infinite;-webkit-animation:show 10s infinite;animation:show 10s infinite;background:#444;background:rgba(68,68,68,.9);border-radius:1em;bottom:1em;box-shadow:0 0 .5em rgba(0,0,0,.5);color:#fff;padding:1em;position:absolute;right:1em;z-index:999;}
 @-moz-keyframes show{
 	from{opacity:0;}
 	33%{opacity:100;}
 	}
 @-webkit-keyframes show{
+	from{opacity:0;}
+	33%{opacity:100;}
+	}
+@keyframes show{
 	from{opacity:0;}
 	33%{opacity:100;}
 	}
