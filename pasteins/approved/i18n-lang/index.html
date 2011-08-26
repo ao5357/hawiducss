@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head>
+<title>Internationalization Languages | Hawidu CSS</title>
+<link rel="stylesheet" type="text/css" href="../../../styles.css" />
+<link rel="stylesheet" type="text/css" href="i18n-lang.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body>
+<div class="page">
+<header>
+	<h1>Hawidu CSS</h1>
+	<p>The CSS framework you <em>should</em> be using.</p>
+</header>
+
+<article>
+	<h1>Internationalization Languages</h1>
+	<p>Provides font-family and other tweaks based on language code. To use, just paste the CSS into styles.css. It is a top-level plugin with no specific HTML usage advisories:</p>
+<code>
+/*-Language-specific-*/
+:lang(af){quotes:'\201E' '\201D' '\201A' '\2019';}
+:lang(ak){font-family:Lucida,"DejaVu Sans";}
+:lang(ar){font-family:Tahoma 12,Nazli,KacstOne,"DejaVu Sans";}
+:lang(bg){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(bn){font-family:FreeSans,MuktiNarrow,Vrinda;font-size:1.1em;line-height:1.4em;}
+:lang(cs){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(da){quotes:'\00BB' '\00AB' '\203A' '\2039';}
+:lang(de){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(el){font-family:"DejaVu Sans";quotes:'\00AB' '\00BB' '\2039' '\203A';}
+:lang(en-GB){quotes:'\2018' '\2019' '\201C' '\201D';}
+:lang(es){quotes:'\00AB' '\00BB' '\2039' '\203A';}
+:lang(fa){font-family:Terafik,Traffic,Roya,Nazli,Nazanin;font-size:1.5em;}
+:lang(fi){quotes:'\201D' '\201D' '\2019' '\2019';}
+:lang(fr){quotes:'\ab\2005' '\2005\bb' '\2039\2005' '\2005\203a';}
+:lang(hr){quotes:'\00BB' '\00AB' '\203A' '\2039';}
+:lang(is){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(ja){font-size:1.1em;}
+:lang(km){font-family:"Khmer OS System","Khmer OS","Khmer Kampongtrach","CDT Khmer";line-height:2em;}
+:lang(ko){font-size:1.1em;}
+:lang(lt){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(nl){quotes:'\201E' '\201D' '\201A' '\2019';}
+:lang(pl){quotes:'\201E' '\201D' '\201A' '\2019';}
+:lang(ro){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(sk){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(sq){quotes:'\00AB' '\00BB' '\2039' '\203A';}
+:lang(sr){quotes:'\201E' '\201C' '\201A' '\2018';}
+:lang(sv){quotes:'\201D' '\201D' '\2019' '\2019';}
+:lang(tr){quotes:'\00AB' '\00BB' '\2039' '\203A';}
+:lang(vi){font-family:"Lucida Grande","Vu Phu Tho","DejaVu Sans";}
+	:lang(vi) a:hover,:lang(vi) a:active{text-decoration:none;color:#606047;}
+:lang(zh){font-size:1.5em;}
+</code>
+</article>
+
+</div>
+</body></html>

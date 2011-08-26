@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html><head>
+<title>Internationalization RTL | Hawidu CSS</title>
+<link rel="stylesheet" type="text/css" href="../../../styles.css" />
+<link rel="stylesheet" type="text/css" href="i18n-rtl.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body dir="rtl">
+<div class="page">
+<header>
+	<h1>Hawidu CSS</h1>
+	<p>The CSS framework you <em>should</em> be using.</p>
+</header>
+
+<article>
+	<h1>Internationalization RTL</h1>
+	<p>Changes left-oriented mods in styles.css to right-oriented mods, where applicable. <strong>Be advised</strong>: this pastein depends on the state of Hawidu CSS core, but may be neglected in versioning. To use, paste in to styles.css and update based on your layout and other changes to core. Testing is as simple as adding an rtl value to the body's dir attribute, or adding an rtl class to any page element:</p>
+<code>
+/*-Right-to-left support-*/
+body[dir="rtl"],.rtl{direction:rtl;}
+	body[dir="rtl"] aside,.rtl aside,body[dir="rtl"] header,.rtl header,body[dir="rtl"] nav,.rtl nav{clear:left;float:left;}
+	body[dir="rtl"] article,.rtl article{float:right;}
+	/*Generics*/
+	body[dir="rtl"] fieldset li label,.rtl fieldset li label{margin:0 0 0 1em;}
+	body[dir="rtl"] blockquote:before,.rtl blockquote:before{margin-left:.25em;}
+	body[dir="rtl"] .away,.rtl .away{right:-9999px;}
+	body[dir="rtl"] .pill,.rtl .pill,body[dir="rtl"] input.pill,.rtl input.pill{border-color:#ccc #fff #bbb #bbb;}
+		body[dir="rtl"] .pill-l,.rtl .pill-l,body[dir="rtl"] input.pill-l,.rtl input.pill-l{-moz-border-radius-bottomleft:1px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:1px;-moz-border-radius-topright:3px;-webkit-border-bottom-left-radius:1px;-webkit-border-bottom-right-radius:3px;-webkit-border-top-left-radius:1px;-webkit-border-top-right-radius:3px;border-bottom-left-radius:1px;border-bottom-right-radius:3px;border-top-left-radius:1px;border-top-right-radius:3px;margin-left:0;}
+		body[dir="rtl"] .pill-r,.rtl .pill-r,body[dir="rtl"] input.pill-r,.rtl input.pill-r{-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:1px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:1px;-webkit-border-bottom-left-radius:3px;-webkit-border-bottom-right-radius:1px;-webkit-border-top-left-radius:3px;-webkit-border-top-right-radius:1px;border-bottom-left-radius:3px;border-bottom-right-radius:1px;border-top-left-radius:3px;border-top-right-radius:1px;border-color:#ccc #fff #bbb #bbb;margin-right:0;}
+</code>
+</article>
+
+</div>
+</body></html>
