@@ -3,7 +3,7 @@
 <title>ARIA Dialog | Hawidu CSS</title>
 <link rel="stylesheet" type="text/css" href="../../../styles.css" />
 <link rel="stylesheet" type="text/css" href="aria-dialog.css" />
-<style>/*Ignore this, please*/[role="dialog"]{left:62%;top:25%;width:320px;}</style>
+<style>/*Ignore this, please*/[role=dialog]{left:62%;top:25%;width:320px;}</style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +19,7 @@
 	<h1>WAI-ARIA Dialog</h1>
 	<p>Modal dialogs that can require focus or user action, <a href="http://www.w3.org/TR/wai-aria/roles#dialog">per the ARIA spec</a>. To use, paste the following CSS into styles.css:</p>
 <code>
-[role="dialog"]{background:#fff;border:1px solid #999;border-radius:.5em;box-shadow:0 0 1em 100em rgba(0,0,0,.5);left:25%;padding:1em;position:fixed;top:15%;width:50%;z-index:999;}
+[role=alertdialog],[role=dialog]{background:#fff;border:1px solid #999;border-radius:.5em;box-shadow:0 0 1em 100em rgba(0,0,0,.5);left:25%;padding:1em;position:fixed;top:15%;width:50%;z-index:999;}
 </code>
 <p>Then, wherever you want a dialog, insert the following HTML where it can roam free in the body of the document (via fixed positioning). It doesn't have to be a div, just a block-display element that makes sense. You could do this programmatically, but be sure to test:</p>
 <code>
