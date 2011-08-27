@@ -2,7 +2,18 @@
 <html><head>
 <title>Link File Icons | Hawidu CSS</title>
 <link rel="stylesheet" type="text/css" href="../../../styles.css" />
-<link rel="stylesheet" type="text/css" href="link%20file%20icons.css" />
+<style>
+/*Pastein CSS*/
+/*Mailto & File Links*/
+a[href^='mailto:']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right 0;display:inline-block;padding:0 18px 0 0;}
+a[href$='.pdf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -44px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -90px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.doc'],a[href$='.rtf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
+a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
+
+/*Test styles only, please ignore*/
+</style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

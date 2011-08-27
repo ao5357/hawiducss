@@ -1,7 +1,0 @@
-/*Mailto & File Links*/
-a[href^='mailto:']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right 0;display:inline-block;padding:0 18px 0 0;}
-a[href$='.pdf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -44px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -90px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.doc'],a[href$='.rtf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
