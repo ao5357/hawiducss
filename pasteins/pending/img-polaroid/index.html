@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+<title>Polaroid Images | Hawidu CSS</title>
+<link rel="stylesheet" type="text/css" href="../../../styles.css" />
+<style>
+/*Paste-in Styles*/
+.polaroid{border:.1em solid #ccc;box-shadow:0 0 0 1em #fff,0 1em 0 1em #fff,1em 3em 1em 0 rgba(0,0,0,.5);margin:0 2em 5em;}
+	.polaroid:nth-of-type(3n+1){-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);-webkit-transform:rotate(-3deg);transform:rotate(-3deg);}
+	.polaroid:nth-of-type(3n+2){-moz-transform:rotate(3deg);-ms-transform:rotate(3deg);-o-transform:rotate(3deg);-webkit-transform:rotate(3deg);transform:rotate(3deg);}
+/*Test-only Overrides, Please ignore*/
+.example-region{background:#444;clear:both;padding:5em;}
+.polaroid{max-width:130px;}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body>
+<div class="page">
+<header>
+	<h1>Hawidu CSS</h1>
+	<p>The CSS framework you <em>should</em> be using.</p>
+</header>
+
+<article>
+	<h1>Polaroid Images</h1>
+	<p>Styles applied entirely to images to make them look like Polaroids. <strong>Serious question</strong>: Is .polaroid a semantic class name? To use, just paste the following into your styles.css, then class images you want to look like polaroids with .polaroid. Siblings will behave like a stack.</p>
+<code>
+.polaroid{border:.1em solid #ccc;box-shadow:0 0 0 1em #fff,0 1em 0 1em #fff,1em 3em 1em 0 rgba(0,0,0,.5);margin:0 2em 5em;}
+	.polaroid:nth-of-type(3n+1){-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);-webkit-transform:rotate(-3deg);transform:rotate(-3deg);}
+	.polaroid:nth-of-type(3n+2){-moz-transform:rotate(3deg);-ms-transform:rotate(3deg);-o-transform:rotate(3deg);-webkit-transform:rotate(3deg);transform:rotate(3deg);}
+</code>
+</article>
+
+<div class="example-region">
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+	<img src="nyan_cat-300x224.jpg" alt="Nyan Cat" class="polaroid" />
+</div>
+
+</div>
+</body></html>
