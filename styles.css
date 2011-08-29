@@ -7,7 +7,7 @@ article,aside,figure,footer,header,hgroup,nav,section{display:block;}
 button,input,select,textarea{border:.1em solid;border-color:#bbb #ccc #ccc #bbb;color:#111;font-family:Arial,sans-serif;font-size:1em;padding:.1em;vertical-align:top;}
 	input:-moz-placeholder{color:graytext;}
 	input[type=search]{-webkit-appearance:textfield;}
-button,.button,code,fieldset,input[type="file"] > input[type="button"],input[type="reset"],input[type="submit"],pre,select{border-radius:.3em;}
+button,.button,code,fieldset,input[type=file] > input[type=button],input[type=submit],pre,select{border-radius:.3em;}
 embed,img,object{max-width:100%;}
 
 /*-Link-*/
@@ -47,9 +47,9 @@ fieldset{border:.1em solid #e3e3e3;margin:1.5em 0;padding:.5em 1em;}
 	fieldset ol{margin:0;padding:0;}
 		fieldset li{list-style:none;margin:0;padding:.5em 1em;}
 			fieldset li label,fieldset li .implicit-label{display:inline-block;margin:0 1em 0 0;width:9em;}
-	button,.button,input[type=file]>input[type=button],input[type=reset],input[type=submit],select{background-color:#f9f9f9;background-image:-moz-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-ms-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-o-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:linear-gradient(bottom,rgba(0,0,0,.1),transparent);border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#ffffffff,endColorstr=#21000000);padding:.1em 1em;}
-		button:hover,.button:hover,input[type=file]>input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover{background-color:#f0f0f0;}
-		button,.button,input[type=reset],input[type=submit]{margin:0 1em 0 0;}
+	button,.button,input[type=file]>input[type=button],input[type=submit],select{background-color:#f9f9f9;background-image:-moz-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-ms-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-o-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:linear-gradient(bottom,rgba(0,0,0,.1),transparent);border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#ffffffff,endColorstr=#21000000);padding:.1em 1em;}
+		button:hover,.button:hover,input[type=file]>input[type=button]:hover,input[type=submit]:hover{background-color:#f0f0f0;}
+		button,.button,input[type=submit]{margin:0 1em 0 0;}
 		input[type=file]{font-size:.714em;}
 		select[size],select[multiple]{background-image:none;}
 	legend{margin:0 0 0 .8em;}
