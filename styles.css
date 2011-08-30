@@ -51,10 +51,9 @@ fieldset{border:.1em solid #e3e3e3;margin:1.5em 0;padding:.5em 1em;}
 		input:-moz-placeholder{color:graytext;}
 		input[type=file]{font-size:.714em;}
 		input[type=search]{-webkit-appearance:textfield;}
-		select{}
-			select[size],select[multiple]{background-image:none;}
-				optgroup{background:transparent;}
-					option{background:transparent;}
+		select[size],select[multiple]{background-image:none;}
+			optgroup{background:transparent;}
+				option{background:transparent;}
 
 /*-Table-*/
 table{border:.1em solid #ccc;border-collapse:collapse;border-spacing:0;font-size:inherit;margin:1.5em 1em;}
