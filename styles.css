@@ -18,23 +18,23 @@ ul{list-style-type:none;margin:.75em 0;padding:0 1em;}
 
 /*-Heading-*/
 h1{font-size:2.25em;margin:.75em 0 .25em 0;}
-	h1 a:link,h1 a:visited{}
-	h1 a:hover,h1 a:focus,h1 a:active{}
+	h1>a:link,h1>a:visited{}
+	h1>a:hover,h1>a:focus,h1>a:active{}
 h2{font-size:1.75em;margin:.75em 0 .25em 0;}
-	h2 a:link,h2 a:visited{}
-	h2 a:hover,h2 a:focus,h2 a:active{}
+	h2>a:link,h2>a:visited{}
+	h2>a:hover,h2>a:focus,h2>a:active{}
 h3{font-size:1.5em;margin:.75em 0 .25em 0;}
-	h3 a:link,h3 a:visited
-	h3 a:hover,h3 a:focus,h3 a:active{}
+	h3>a:link,h3>a:visited
+	h3>a:hover,h3>a:focus,h3>a:active{}
 h4{font-size:1.25em;margin:.75em 0 .25em 0;}
-	h4 a:link,h4 a:visited{}
-	h4 a:hover,h4 a:focus,h4 a:active{}
+	h4>a:link,h4>a:visited{}
+	h4>a:hover,h4>a:focus,h4>a:active{}
 h5{font-size:1em;margin:.75em 0 .25em 0;}
-	h5 a:link,h5 a:visited{}
-	h5 a:hover,h5 a:focus,h5 a:active{}
+	h5>a:link,h5>a:visited{}
+	h5>a:hover,h5>a:focus,h5>a:active{}
 h6{font-size:.75em;margin:.75em 0 .25em 0;}
-	h6 a:link,h6 a:visited{}
-	h6 a:hover,h6 a:focus,h6 a:active{}
+	h6>a:link,h6>a:visited{}
+	h6>a:hover,h6>a:focus,h6>a:active{}
 
 /*-Form-*/
 fieldset{border:.1em solid #e3e3e3;margin:1.5em 0;padding:.5em 1em;}
@@ -60,8 +60,8 @@ table{border:.1em solid #ccc;border-collapse:collapse;border-spacing:0;font-size
 	caption{border-color:#ccc;border-style:solid;border-width:.1em .1em 0 .1em;font-size:.75em;padding:.25em 1em;text-align:left;}
 	thead{background:#ccc;font-weight:bold;}
 		th{border-right:.1em solid #ccc;border-bottom:.1em solid #eee;padding:.25em 1em;}
-	tbody tr:hover{background:#eee;}
-	tbody tr:nth-child(even){background:#f9f9f9;}
+	tbody>tr:hover{background:#eee;}
+	tbody>tr:nth-child(even){background:#f9f9f9;}
 	td{border-right:.1em solid #ccc;border-bottom:.1em solid #eee;padding:.25em 1em;}
 
 /*-Other-*/
