@@ -12,9 +12,9 @@ a:active{}
 a:focus{outline:.1em dotted;}
 
 /*-List-*/
-ol{list-style:decimal outside;margin:.75em 0;padding:0 1em;}
-ul{list-style-type:none;margin:.75em 0;padding:0 1em;}
-	ul>li:before{content:"\25BA";display:block;font-size:.7em;left:-2.1em;position:relative;top:1.8em;}
+ol{list-style:decimal outside;margin:.5em 0;padding:0 1em;}
+ul{list-style-type:none;margin:.5em 0;padding:0 1em;}
+	ul>li:before{content:"\25BA";display:block;font-size:.7em;height:0;left:-2.1em;position:relative;top:.3em;}
 
 /*-Heading-*/
 h1{font-size:2.25em;margin:.75em 0 .25em 0;}
