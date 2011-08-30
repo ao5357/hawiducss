@@ -107,7 +107,7 @@ nav,aside{clear:right;}
 	/*Tag-level*/
 	a[href^=http]:after{content:" (" attr(href) ") ";font-size:.8em;font-weight:normal;}
   abbr[title]:after,acronym[title]:after{content:" (" attr(title) ") ";font-size:.8em;font-weight:normal;}
-	
+
 	/*Structure*/
 	.page,article{float:none;margin:0;padding:0;width:100%;}
 		aside,footer,header,nav,.noprint{display:none;}
