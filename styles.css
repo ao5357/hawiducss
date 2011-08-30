@@ -42,12 +42,12 @@ fieldset{border:.1em solid #e3e3e3;margin:1.5em 0;padding:.5em 1em;}
 	fieldset ol{margin:0;padding:0;}
 		fieldset li{list-style:none;margin:0;padding:.5em 1em;}
 			fieldset li label,fieldset li .implicit-label{display:inline-block;margin:0 1em 0 0;width:10em;}
-	[role=button],button,code,fieldset,input,pre,select,textarea{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;border:.1em solid;border-color:#bbb #ccc #ccc #bbb;border-radius:.3em;box-sizing:content-box;color:#111;font-family:Arial,sans-serif;font-size:1em;line-height:normal;margin:0 1em 0 0;vertical-align:top;}
+	[role=button],button,code,fieldset,input,pre,select,textarea{border:.1em solid;border-color:#bbb #ccc #ccc #bbb;border-radius:.3em;color:#111;font-family:Arial,sans-serif;font-size:1em;line-height:normal;margin:0 1em 0 0;vertical-align:top;}
 		[role=button],button,input[type=submit],select{background-color:#f9f9f9;background-image:-moz-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-ms-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-o-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:linear-gradient(bottom,rgba(0,0,0,.1),transparent);border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#ffffffff,endColorstr=#21000000);}
-		[role=button],button,input[type=submit]{-moz-appearance:none;-webkit-appearance:none;color:#111;display:inline-block;margin:0 1em 0 0;padding:0 1em;text-decoration:none;}
+		[role=button],button,input[type=submit]{color:#111;padding:.1em 1em;}
 			[role=button]:hover,button:hover,input[type=submit]:hover{background-color:#f0f0f0;}
-			[role=button]{line-height:1.28;}
 			.clicked,button.clicked,input.clicked{background-color:#e5e5e5;color:#fff;}
+		[role=button]{display:inline-block;line-height:1.28;text-decoration:none;}
 		input:-moz-placeholder{color:graytext;}
 		input[type=file]{font-size:.714em;}
 		input[type=search]{-webkit-appearance:textfield;}
