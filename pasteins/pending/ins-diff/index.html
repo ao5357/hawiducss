@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head>
+<title>del/ins diff | Hawidu CSS</title>
+<link rel="stylesheet" type="text/css" href="../../../styles.css" />
+<style>
+/*Paste-in Styles*/
+body{counter-reset:diff;}
+
+.diff{font-family:Consolas,"Bitstream Vera Sans Mono","Courier New",monospace;}
+	.diff:before{content:"@@ diff " counter(diff);counter-increment:diff;display:block;}
+	.diff>del,.diff>ins{display:block;padding-left:3.5ex;position:relative;text-decoration:none;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+		.diff>del{background:#FCC;color:#700;}
+			.diff>del:before{content:"-";left:0;position:absolute;}
+		.diff>ins{background:#CFC;color:#070;}
+			.diff>ins:before{content:"+";left:0;position:absolute;}
+
+/*Test-only Overrides, Please ignore*/
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body>
+<div class="page">
+<header>
+	<h1>Hawidu CSS</h1>
+	<p>The CSS framework you <em>should</em> be using.</p>
+</header>
+
+<article>
+	<h1>del/ins diff</h1>
+	<p>Makes &lt;del&gt; and &lt;ins&gt; look like a diffs. Each diff-classed container on the page is incremented with a counter. To use, augment the body, then add the .diff stuff to the utility classes.</p>
+<code>
+body{counter-reset:diff;}
+
+.diff{font-family:Consolas,"Bitstream Vera Sans Mono","Courier New",monospace;}
+	.diff:before{content:"@@ diff " counter(diff);counter-increment:diff;display:block;}
+	.diff>del,.diff>ins{display:block;padding-left:3.5ex;position:relative;text-decoration:none;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+		.diff>del{background:#FCC;color:#700;}
+			.diff>del:before{content:"-";left:0;position:absolute;}
+		.diff>ins{background:#CFC;color:#070;}
+			.diff>ins:before{content:"+";left:0;position:absolute;}
+</code>
+<h2>Example</h2>
+<p>For markup that looks like this:</p>
+<code>
+&lt;div class="diff"&gt;
+&lt;del&gt;Brad is 25 years old&lt;/del&gt;
+&lt;ins&gt;Brad is a 26-year-old&lt;/ins&gt;
+&lt;/div&gt;
+</code>
+<div class="diff">
+<del>Brad is 25 years old</del>
+<ins>Brad is a 26-year-old</ins>
+</div>
+
+<p>Word wrap example:</p>
+<div class="diff">
+<del>This is an extraneous edit that I'm going to try to wrap by writing text that is longer than the measure. This seems like a reliable method to get text to wrap.</del>
+<ins>This unneccessary edit will wrap, even though the white-space on this element is super funk-ified. Don't believe me? You should!</ins>
+</div>
+
+<p>If you delete content but don't insert new, it looks like this:</p>
+<div class="diff">
+<del>I decided that I don't like this line.</del>
+</div>
+
+<p>If you insert new content but don't delete any old, it looks like this:</p>
+<div class="diff">
+<ins>This line would look really good here.</ins>
+</div>
+
+<p>Let's say you have a page where you'd want to delete and insert stuff, and also have the diff counters:</p>
+<del>Brad is 25 years old</del>
+<ins>Brad is a 26-year-old</ins>
+
+<p>Deletions and insertions not wrapped in a classed container don't affect the diff counter. Speaking of which, you could add another diff without deleting or inserting anything, which would increment the counter, but semantically might be difficult to argue:</p>
+<div class="diff">This div is classed .diff. It gets monospaced fonts from its container and increments the counter, but otherwise doesn't do much.</div>
+</article>
+
+</div>
+</body></html>
