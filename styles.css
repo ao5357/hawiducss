@@ -85,7 +85,7 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 
 /*--Classes/Roles--*/
 .column{float:left;margin:1.5em 0;width:50%;}
-	.columnated-text{-moz-column-count:2;-moz-column-gap:2em;-webkit-column-count:2;-webkit-column-gap:2em;column-count:2;column-gap:2em;}
+	.columnated-text{-moz-column-count:2;-moz-column-gap:2em;-moz-hyphens:auto;-webkit-column-count:2;-webkit-column-gap:2em;-webkit-hyphens:auto;column-count:2;column-gap:2em;hyphens:auto;text-align:justify;}
 .hide{display:none;}
 	.away{position:absolute;left:-9999px;}
 .pill,.pill[type=submit]{border-radius:.3em .1em .1em .3em;margin:0 -.14em;padding:.1em .5em;}
