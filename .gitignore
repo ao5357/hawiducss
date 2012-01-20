@@ -1,1 +1,17 @@
 *.db
+*.esproj
+*.komodoproject
+*.sublime-project
+*.sublime-workspace
+.CVS
+.DS_Store
+.hg
+.idea
+.komodotools
+.svn
+.tmproj
+dwsync.xml
+intermediate
+nbproject
+publish
+_notes
