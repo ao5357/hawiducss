@@ -13,7 +13,7 @@ Hawidu CSS is _the_ single-file CSS framework:
  * Pasteins: paste widgets in your stylesheet as needed, contribute new ones back
  * Consistent form elements
  * Tapered List bullets
- * {{{<hr />}}} embellishments
+ * ```<hr />``` embellishments
  * HTML5 basic layout
  * Zero file/image dependencies
 
