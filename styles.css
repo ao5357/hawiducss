@@ -1,4 +1,4 @@
-/*---[Name of Project] — Maintained by:[Maintainer] Email:[Maintainer's Email] — based on Hawidu CSS: http://code.google.com/p/hawiducss/ ---*/
+/*---[Name of Project] — Maintained by:[Maintainer] Email:[Maintainer's Email] — based on Hawidu CSS: https://github.com/ao5357/hawiducss ---*/
 /*--Type Selectors--*/
 /*-Body-*/
 html{font-size:100.01%;}
@@ -70,7 +70,7 @@ blockquote{background:#f9f9f9;border-left:1em solid #eee;margin:1.5em 1em;paddin
 	blockquote:before{color:#808080;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
 	blockquote > :first-child{display:inline;}
 	blockquote > :last-child{margin-bottom:0;}
-code,pre{background:#f9f9f9;border:.1em solid #ccc;display:block;font-family:Consolas,"Bitstream Vera Sans Mono","Courier New",monospace;font-size:1em;margin:1.5em 1em;padding:.5em 1em;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+code,pre{background:#f9f9f9;border:.1em solid #ccc;display:block;font-family:monospace;font-size:1em;margin:1.5em 1em;padding:.5em 1em;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
 embed,img,object{max-width:100%;}
 	img{-ms-interpolation-mode:bicubic;border:0 none;}
 hr{background-color:#808080;border-width:0;color:#808080;height:.2em;line-height:0;margin:1.8571em 2em;page-break-after:always;text-align:center;}
@@ -87,7 +87,7 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 .column{float:left;margin:1.5em 0;width:50%;}
 	.columnated-text{-moz-column-count:2;-moz-column-gap:2em;-moz-hyphens:auto;-webkit-column-count:2;-webkit-column-gap:2em;-webkit-hyphens:auto;column-count:2;column-gap:2em;hyphens:auto;text-align:justify;}
 .hide{display:none;}
-	.away{position:absolute;left:-9999px;}
+	.away{overflow:hidden;text-indent:100%;white-space: nowrap;}
 .pill,.pill[type=submit]{border-radius:.3em .1em .1em .3em;margin:0 -.14em;padding:.1em .5em;}
 	.pill+.pill{border-color:#ccc #bbb #bbb #fff;border-radius:.1em;}
 	.pill:last-child,.pill[type=submit]:last-child{border-radius:.1em .3em .3em .1em;margin-right:1em;}
