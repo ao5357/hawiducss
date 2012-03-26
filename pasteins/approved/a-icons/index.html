@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html><head>
-<title>Link File Icons | Hawidu CSS</title>
-<link rel="stylesheet" type="text/css" href="../../../styles.css" />
-<style>
-/*Pastein CSS*/
+---
+layout: layout
+title: link files icons
+---
+// This is where the CSS for the pastein goes
+{% capture pastein_css %}
 /*Mailto & File Links*/
 a[href^='mailto:']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right 0;display:inline-block;padding:0 18px 0 0;}
 a[href$='.pdf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -44px;display:inline-block;padding:0 18px 0 0;}
@@ -11,36 +11,15 @@ a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(imag
 a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
 a[href$='.doc'],a[href$='.rtf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
 a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
+{% endcapture %}
 
-/*Test styles only, please ignore*/
-</style>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head><body>
-<div class="page">
-<header>
-	<h1>Hawidu CSS</h1>
-	<p>The CSS framework you <em>should</em> be using.</p>
-</header>
+// This for explanation and instructions
+{% capture pastein_explanabrag %}
+<p>Adds sprited <a href="http://famfamfam.com/lab/icons/silk/">silk icons</a> to some links. Only has one dependency/HTTP request. To use, create an images directory at the styles.css root and paste in the HTML. Wherever a file or other link that matches the CSS selectors appears, the icons should show up to the right of the link. Paste this CSS into styles.css:</p>
+{% endcapture %}
 
-<article>
-	<h1>Link File Icons</h1>
-	<p>Adds sprited <a href="http://famfamfam.com/lab/icons/silk/">silk icons</a> to some links. Only has one dependency/HTTP request. To use, create an images directory at the styles.css root and paste in the HTML. Wherever a file or other link that matches the CSS selectors appears, the icons should show up to the right of the link. Paste this CSS into styles.css:</p>
-<code>
-/*Mailto & File Links*/
-a[href^='mailto:']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right 0;display:inline-block;padding:0 18px 0 0;}
-a[href$='.pdf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -44px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.xls'],a[href$='.csv'],a[href$='.xlsx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -90px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.ppt'],a[href$='.pptx']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -136px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.doc'],a[href$='.rtf']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -182px;display:inline-block;padding:0 18px 0 0;}
-a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(images/file_icon_sprite.gif) no-repeat scroll right -228px;display:inline-block;padding:0 18px 0 0;}
-</code>
-</article>
-
-<aside>
-<h1>Examples</h1>
+// This is for an example, which is in the sidebar by default. Otherwise you'll have to override the format.
+{% capture pastein_example %}
 <ul>
 	<li><a href="mailto:ao5357@gmail.com">Mail Link</a></li>
 	<li><a href="test.pdf">PDF Link</a></li>
@@ -49,7 +28,4 @@ a[href$='.zip'],a[href$='.gzip'],a[href$='.rar']{background:transparent url(imag
 	<li><a href="test.doc">Word Link</a></li>
 	<li><a href="test.zip">Zip Link</a></li>
 </ul>
-</aside>
-
-</div>
-</body></html>
+{% endcapture %}

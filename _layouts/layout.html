@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<title>{{ page.title }} | Hawidu CSS</title>
+<meta name="author" content="Brad Czerniak" />
+<link rel="stylesheet" type="text/css" href="../../../styles.css" />
+<style>
+{{ page.pastein_css }}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head><body><div class="page">
+<header>
+	<h1>Hawidu CSS</h1>
+	<p>The CSS framework you <em>should</em> be using.</p>
+</header>
+
+<article>
+	<h1>{{ page.title}}</h1>
+	{{ page.pastein_explanabrag }}
+<code>
+	{{ page.pastein_css }}
+</code>
+</article>
+
+<aside>
+<h1>Example</h1>
+{{ page.pastein_example }}
+</aside>
+</div></body></html>
