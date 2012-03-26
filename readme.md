@@ -8,6 +8,7 @@ Hawidu CSS is _the_ single-file CSS framework:
  * Progressive enhancement: form elements, pretty blockquotes
  * Semantic: even the utility classes
 
+[See the wiki](https://github.com/ao5357/hawiducss/wiki) for tons of documentation.
 ##Features
 
  * Pasteins: paste widgets in your stylesheet as needed, contribute new ones back
@@ -16,9 +17,6 @@ Hawidu CSS is _the_ single-file CSS framework:
  * ```<hr />``` embellishments
  * HTML5 basic layout
  * Zero file/image dependencies
-
-##Roadmap
-Hawidu CSS is an active project moving toward a 1.0 release that will include the best documentation of any CSS Framework, a testing suite, pasteins, Wordpress theme, and Drupal 7 theme.
 
 ##tl;dr
 Build your next project with Hawidu CSS and have a time-saving and *maintainable style base* that doesn't rely on [killing you](http://www.stubbornella.org/content/2011/04/28/our-best-practices-are-killing-us/) or [leaky abstractions](http://leaverou.me/2011/03/on-css-preprocessors/).
