@@ -2,7 +2,7 @@
 /*--Type Selectors--*/
 /*-Body-*/
 html{font-size:100.01%;}
-body{background:#fff;color:#111;font-family:Arial,sans-serif;font-size:.875em;line-height:1.5;margin:0;}
+body{background:#fff;color:#111;font-family:Arial,sans-serif;line-height:1.5;margin:0;}
 
 /*-Link-*/
 a:link{color:#00619e;}
